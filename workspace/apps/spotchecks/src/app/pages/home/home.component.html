@@ -1,0 +1,47 @@
+<div class="home-container">
+  <header class="header">
+    <h1>SpotChecks Demo</h1>
+    <p class="subtitle">SurveySparrow Ionic Plugin Integration</p>
+  </header>
+
+  <main class="content">
+    <section class="info-card">
+      <h2>📊 Screen Tracking</h2>
+      <p>This screen is automatically tracked when you visit it.</p>
+      <p>Surveys configured for "HomeScreen" will trigger based on your SpotChecks settings.</p>
+    </section>
+
+    <section class="status-card">
+      <h3>Tracking Status</h3>
+      <p class="status" [class.loading]="isTracking">
+        {{ trackingStatus || 'Ready' }}
+      </p>
+    </section>
+
+    <section class="actions">
+      <h2>🎯 Event Tracking Examples</h2>
+      
+      <button class="btn btn-primary" (click)="onButtonClick()">
+        Track Button Click Event
+      </button>
+      
+      <button class="btn btn-success" (click)="onPurchaseComplete()">
+        Track Purchase Event
+      </button>
+    </section>
+
+    <section class="info-card">
+      <h2>ℹ️ How It Works</h2>
+      <ul>
+        <li><strong>Screen Track:</strong> Called automatically in ngOnInit</li>
+        <li><strong>Event Track:</strong> Called on user interactions</li>
+        <li><strong>Surveys:</strong> Triggered based on your SpotChecks configuration</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Powered by <a href="https://surveysparrow.com" target="_blank">SurveySparrow</a></p>
+  </footer>
+</div>
+

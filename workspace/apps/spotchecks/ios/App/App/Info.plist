@@ -45,5 +45,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<!-- SpotChecks Required Permissions -->
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs camera access to capture photos for survey questions.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs photo library access to select photos for survey questions.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access for audio recording in surveys.</string>
 </dict>
 </plist>

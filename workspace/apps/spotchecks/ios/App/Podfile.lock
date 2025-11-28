@@ -2,21 +2,33 @@ PODS:
   - Capacitor (7.4.4):
     - CapacitorCordova
   - CapacitorCordova (7.4.4)
+  - CapacitorDevice (7.0.2):
+    - Capacitor
+  - SurveysparrowIonicPlugin (2.0.1):
+    - Capacitor
 
 DEPENDENCIES:
   - "Capacitor (from `../../../../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../../../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../../../node_modules/@capacitor/device`)"
+  - SurveysparrowIonicPlugin (from `../../../../node_modules/surveysparrow-ionic-plugin`)
 
 EXTERNAL SOURCES:
   Capacitor:
     :path: "../../../../node_modules/@capacitor/ios"
   CapacitorCordova:
     :path: "../../../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../../../node_modules/@capacitor/device"
+  SurveysparrowIonicPlugin:
+    :path: "../../../../node_modules/surveysparrow-ionic-plugin"
 
 SPEC CHECKSUMS:
   Capacitor: 09d9ff8e9618e8c4b3cab2bbee34a17215dd2fef
   CapacitorCordova: bf648a636f3c153f652d312ae145fb508b6ffced
+  CapacitorDevice: a50a45f0d075e55e2392c7a4be5404d4f69515de
+  SurveysparrowIonicPlugin: 8b03db282d411c414e3495764ae53b71e2b39d5b
 
-PODFILE CHECKSUM: de7a352a1de5b6a3b34e47184d3dced542fe70fb
+PODFILE CHECKSUM: a6dd354a27ebe8895325e5bdd58b97e3f561e6c8
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

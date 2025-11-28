@@ -19,9 +19,10 @@
     "@capacitor/android": "^7.4.4",
     "@capacitor/cli": "^7.4.4",
     "@capacitor/core": "^7.4.4",
+    "@capacitor/device": "^7.0.2",
     "@capacitor/ios": "^7.4.4",
     "rxjs": "~7.8.0",
-    "surveysparrow-ionic-plugin": "2.0.0",
+    "surveysparrow-ionic-plugin": "2.0.1",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
